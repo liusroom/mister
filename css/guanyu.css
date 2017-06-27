@@ -1,0 +1,149 @@
+*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			margin:5px auto;
+			width:1100px;
+			background:url(../img/mainbg.gif);
+			background-size:100% 100%;
+		}
+		#wrap{
+			background: url(../img/body_bg.png) repeat-x;
+		}
+		header{
+			background: url(../img/title-yellow.png) no-repeat;
+			height:250px;
+			margin-top:15px;
+			background-size: 100% 100%;
+			border: 2px solid black;
+		}
+		header h1{
+			color:white;
+			position:relative;
+			top:75px;
+			left:105px;
+		}
+		header p{
+			position:relative;
+			top:130px;
+			left:90px;
+			font-size: 1.1em;
+		}
+		header p span{
+			color:yellow;
+			font-size:1.5em;
+			font-style:oblique;
+		}
+		nav{
+			overflow: hidden;
+			background: url(../img/under.gif) repeat-x;
+		}
+		nav ul{
+			overflow: hidden;
+			margin-left:150px;
+			list-style: none;
+		}
+		nav ul li{
+			float:left;
+			margin-left:2px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:white;
+			display:block;
+			padding:7px 15px;
+			font-family: "微软雅黑";
+		}
+		nav ul li a:hover{
+			background: url(../img/hover.gif) center left;
+			background-size:100% 100%;
+		}
+		.here{
+			background:url(../img/hover.gif);
+			background-size:100% 100%;
+		}
+		article{
+			background-color:white;
+			position: relative;
+			border:1px solid black;
+			height:550px;
+		}
+		article h2,h3{
+			margin:0 auto;
+			text-align: center;
+			padding:15px;
+			margin-top:10px;
+		}
+		article h3{
+			margin:0;
+		}
+		article ul{
+			position:absolute;
+			left:550px;
+			margin-top:10px;
+			list-style: none;
+		}
+		article li{
+			
+			margin:20px;
+		}
+		article img{
+			position:absolute;
+			left:100px;
+			float:left;
+			width:400px;
+			height:400px;
+		}
+		article li a{
+			background:url(../img/corner.gif) left top no-repeat;
+			text-align: center;
+			color:black;
+			text-decoration: none;
+			display:block;
+			padding:10px 20px;
+			background-color:gray;
+		}
+		article li a:hover{
+			background-color:green;
+			color:white;
+		}
+		article div.head{
+			color:white;
+			background:url(../img/hd.jpg);
+			background-size:100% 100%;
+		}
+		article section{
+			background:url(../img/background.jpg) left top;
+			background-size:100% 100%;
+			position:absolute;
+			top:120px;
+			left:0px;
+			
+			width:700px;
+			height:350px;
+		}
+		article section span{
+			padding:3px;
+			margin-right:5px;
+			background-color:grey;
+		}
+		.guanjian{
+			font-weight: bold;
+			font-size:1.5em;
+			background-color:transparent;
+		}
+		section p{
+			text-indent: 2em;
+			line-height: 1.5em;
+			margin:-30px 130px;
+			padding-bottom:30px;
+		}
+		section h4{
+			padding:40px 130px;
+			margin-top:10px;
+		}
+		.this{
+			color:white;
+			background-color:green;
+		}

@@ -1,0 +1,139 @@
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			margin:5px auto;
+			width:1100px;
+			background-color:wheat;
+		}
+		#wrap{
+			background: url(../img/body_bg.png) repeat-x;
+		}
+		header{
+			background: url(../img/title-yellow.png) no-repeat;
+			height:250px;
+			margin-top:15px;
+			background-size: 100% 100%;
+			border: 2px solid black;
+		}
+		header h1{
+			color:white;
+			position:relative;
+			top:75px;
+			left:105px;
+		}
+		header p{
+			position:relative;
+			top:130px;
+			left:90px;
+			font-size: 1.1em;
+		}
+		header p span{
+			color:yellow;
+			font-size:1.5em;
+			font-style:oblique;
+		}
+		nav{
+			overflow: hidden;
+			background: url(../img/under.gif) repeat-x;
+		}
+		nav ul{
+			overflow: hidden;
+			margin-left:150px;
+			list-style: none;
+		}
+		nav ul li{
+			float:left;
+			margin-left:2px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color:white;
+			display:block;
+			padding:7px 15px;
+			font-family: "微软雅黑";
+		}
+		nav ul li a:hover{
+			background: url(../img/hover.gif) center left;
+			background-size:100% 100%;
+		}
+		.here{
+			background:url(../img/hover.gif);
+			background-size:100% 100%;
+		}
+		article{
+			position:relative;
+			border:1px solid black;
+			background-color:white;
+			height:550px;
+		}
+		#myMessage_wrap{
+			margin:50px 80px;
+			background: url(../img/bei.jpg) no-repeat;
+			width:400px;
+			height:480px;
+			background-size:100% 100%;
+		}
+		#myMessage{
+			margin-left:30px;
+			padding-top:50px;
+			font-size:1.3em;
+			line-height: 3.5em;
+		}
+		
+		article span{
+			font-size:1.4em;
+		}
+		article h2{
+			position:absolute;
+			left:620px;
+			top:50px;
+		}
+		article form textarea{
+			margin-top:15px;
+			
+		}
+		article legend{
+			text-align: center;
+		}
+		article fieldset{
+			position:absolute;
+			left:500px;
+			line-height: 2em;
+			top:100px;
+			width:500px;
+		}
+		article form{
+			padding:10px 30px;
+			line-height: 50px;
+		}
+		article input{
+			height:1.5em;
+		}
+		article form span{
+			color:red;
+			margin:5px 6px;
+		}
+		article form p{
+			font-size:.8em;
+			text-align: right;
+			color:red;
+		}
+		article input.submit{
+			font-size:.9em;
+			margin-left:400px;
+			padding:0 10px;
+			text-align: center;
+		}
+		article div.pt{
+			text-align: center;
+			margin-top:50px;
+		}
+		article h3{
+			text-align: center;
+			margin-top:80px;
+		}
+		#message{
+			vertical-align: top;
+		}
