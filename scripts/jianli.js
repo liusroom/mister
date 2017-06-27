@@ -8,10 +8,4 @@ $(function(){
 		$(function(){
 			$("tr:odd").css({"backgroundColor":"#efb"});
 		})
-		$(function(){
-			$("td").mouseover(function(){
-				$(this).addClass("this")
-			}).mouseout(function(){
-				$(this).removeClass("this")
-			})
-		})
+		
