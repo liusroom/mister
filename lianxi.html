@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/lianxi.css">
+		<script src="scripts/jquery-3.2.1.js" ></script>
+	</head>
+	<body>
+		<div id="wrap">
+		<header>
+			<h1>我的个人简历</h1>
+			<p>立志成为一名<span>卓越</span> 的前端工程师</p>
+		</header>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="shouye.html">首页</a></li>
+				<li><a href="jianli.html">个人简历</a></li>
+				<li><a href="guanyu.html">关于我</a></li>
+				<li><a href="tuku.html">母校风光</a></li>
+				<li><a href="lianxi.html">联系我</a></li>
+			</ul>
+		</nav>
+		<article>
+			<div id="myMessage_wrap">
+			<div id="myMessage">
+			<h1>我的联系方式</h1>
+			<p>姓名：<span>刘宗达</span></p>
+			<p>电子邮箱：<span>381455569@qq.com</span></p>
+			<p>手机：<span>15767979259</span></p>
+			</div>
+			</div>
+			<h2>您也可以在下面给我留言。</h2>
+			<fieldset>
+				<legend>您的个人信息</legend>
+				<form id="contactForm">
+					<lable for="name" name="name" id="name">姓名：</lable>
+					<input type="text" required="required" /><br />
+					<lable for="phone" name="phone" id="phone">电话：</lable>
+					<input type="text"/><br />
+					<lable for="email" name="email" id="email">邮箱：</lable>
+					<input type="text" required="required" class="email"/><br />
+					<lable for="message" name="message" id="message">留言：</lable>
+					<textarea required="required" rows="5" cols="40"></textarea>
+					<input type="submit" value="发送" class="submit" onclick="return check()" />
+				</form>
+			</fieldset>
+		</aticle>
+	</body>
+	<script src="scripts/lianxi.js"></script>
+</html>
