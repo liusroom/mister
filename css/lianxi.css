@@ -5,7 +5,8 @@
 		body{
 			margin:5px auto;
 			width:1100px;
-			background-color:wheat;
+			background:url(../img/mainbg.gif) repeat-x;
+			background-size:100% 100%;
 		}
 		#wrap{
 			background: url(../img/body_bg.png) repeat-x;
