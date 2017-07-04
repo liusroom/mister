@@ -122,8 +122,9 @@
 			width:90px;
 			height:60px;
 		}
-		article img.show{
-			margin:5px 150px;
+		article div.show {
+			text-align:center;
+			margin:20px 0;
 		}
 		.here{
 			background:url(../img/hover.gif);

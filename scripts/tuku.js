@@ -32,6 +32,7 @@ $(function(){
 				$("article div.contentList").animate({left:"+=1100px"},"slow");
 				page--;
 			}
+			$("article span").eq((page-1)).addClass("current").siblings().removeClass("current");
 		}
 	})
 })
@@ -41,7 +42,7 @@ $(function(){
 		var src=$(this).children().attr("src");
 		var alt=$(this).children().attr("alt");
 		var tt=$(this).children().attr("title");
-		$("article img.show").attr("src",src).attr("alt",alt).attr("title",tt);
+		$("article div.show img").attr("src",src).attr("alt",alt).attr("title",tt);
 		return false;
 	})
 })
