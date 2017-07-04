@@ -137,3 +137,8 @@
 		#message{
 			vertical-align: top;
 		}
+		footer{
+			text-align: center;
+			margin:20px;
+			color:#999;
+		}
