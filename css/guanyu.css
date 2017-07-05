@@ -3,7 +3,7 @@
 			padding:0;
 		}
 		body{
-			min-width: 500px;
+			min-width: 650px;
 			margin:5px auto;
 			width:65%;
 			background:url(../img/mainbg.gif) repeat-x;
@@ -74,15 +74,12 @@
 			border:1px solid black;
 			height:600px;
 		}
-		article h2,h3{
-			font-size:1.4vw;
+		article h2{
+			font-size:1.3vw;
 			margin:0 auto;
 			text-align: center;
 			padding:1%;
-			margin-top:10px;
-		}
-		article h3{
-			margin:0;
+			
 		}
 		article ul{
 			position:absolute;
@@ -97,8 +94,8 @@
 			position:absolute;
 			left:10%;
 			float:left;
-			width:40%;
-			height:80%;
+			width:39%;
+			height:75%;
 		}
 		article li a{
 			font-size:1.1vw;
@@ -115,6 +112,7 @@
 			color:white;
 		}
 		article div.head{
+			margin:10px;
 			color:white;
 			background:url(../img/hd.jpg);
 			background-size:100% 100%;
@@ -123,8 +121,8 @@
 			background:url(../img/background.jpg) left top;
 			background-size:100% 100%;
 			position:absolute;
-			top:20%;
-			left:0px;
+			top:6.5vw;
+			left:5%;
 			width:50%;
 			height:75%;
 		}
