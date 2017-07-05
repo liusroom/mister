@@ -3,9 +3,10 @@
 			padding:0;
 		}
 		body{
+			min-width: 500px;
 			margin:5px auto;
-			width:1100px;
-			background:url(../img/mainbg.gif);
+			width:65%;
+			background:url(../img/mainbg.gif) repeat-x;
 			background-size:100% 100%;
 		}
 		#wrap{
@@ -16,19 +17,22 @@
 			height:250px;
 			margin-top:15px;
 			background-size: 100% 100%;
-			border: 2px solid black;
+			border: 1px solid black;
 		}
 		header h1{
+			width:20%;
+			font-size:2vw;
 			color:white;
 			position:relative;
 			top:75px;
-			left:105px;
+			left:9%;
 		}
 		header p{
+			width:30%;
 			position:relative;
-			top:130px;
-			left:90px;
-			font-size: 1.1em;
+			top:50%;
+			left:10%;
+			font-size: 1.1vw;
 		}
 		header p span{
 			color:yellow;
@@ -41,14 +45,15 @@
 		}
 		nav ul{
 			overflow: hidden;
-			margin-left:150px;
+			margin-left:15%;
 			list-style: none;
 		}
 		nav ul li{
 			float:left;
-			margin-left:2px;
+			margin-left:1%;
 		}
 		nav ul li a{
+			font-size:.85vw;
 			text-decoration: none;
 			color:white;
 			display:block;
@@ -67,12 +72,13 @@
 			background-color:white;
 			position: relative;
 			border:1px solid black;
-			height:550px;
+			height:600px;
 		}
 		article h2,h3{
+			font-size:1.4vw;
 			margin:0 auto;
 			text-align: center;
-			padding:15px;
+			padding:1%;
 			margin-top:10px;
 		}
 		article h3{
@@ -80,22 +86,22 @@
 		}
 		article ul{
 			position:absolute;
-			left:550px;
-			margin-top:10px;
+			left:55%;
+			margin-top:5%;
 			list-style: none;
 		}
 		article li{
-			
 			margin:20px;
 		}
 		article img{
 			position:absolute;
-			left:100px;
+			left:10%;
 			float:left;
-			width:400px;
-			height:400px;
+			width:40%;
+			height:80%;
 		}
 		article li a{
+			font-size:1.1vw;
 			background:url(../img/corner.gif) left top no-repeat;
 			text-align: center;
 			color:black;
@@ -117,31 +123,34 @@
 			background:url(../img/background.jpg) left top;
 			background-size:100% 100%;
 			position:absolute;
-			top:120px;
+			top:20%;
 			left:0px;
-			
-			width:700px;
-			height:350px;
+			width:50%;
+			height:75%;
 		}
 		article section span{
-			padding:3px;
-			margin-right:5px;
+			padding:1%;
+			margin-right:1%;
 			background-color:grey;
 		}
 		.guanjian{
 			font-weight: bold;
-			font-size:1.5em;
+			font-size:1.5vw;
 			background-color:transparent;
 		}
 		section p{
+			font-size:1vw;
 			text-indent: 2em;
 			line-height: 1.5em;
-			margin:-30px 130px;
+			margin:15%;
+			margin-top:0;
 			padding-bottom:30px;
+			width:70%;
 		}
 		section h4{
-			padding:40px 130px;
-			margin-top:10px;
+			font-size:1vw;
+			margin:70px 80px;
+			margin-bottom: 10px;
 		}
 		.this{
 			color:white;

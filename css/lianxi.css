@@ -3,8 +3,9 @@
 			padding:0;
 		}
 		body{
+			min-width: 650px;
 			margin:5px auto;
-			width:1100px;
+			width:65%;
 			background:url(../img/mainbg.gif) repeat-x;
 			background-size:100% 100%;
 		}
@@ -16,19 +17,22 @@
 			height:250px;
 			margin-top:15px;
 			background-size: 100% 100%;
-			border: 2px solid black;
+			border: 1px solid black;
 		}
 		header h1{
+			width:20%;
+			font-size:2vw;
 			color:white;
 			position:relative;
 			top:75px;
-			left:105px;
+			left:9%;
 		}
 		header p{
+			width:30%;
 			position:relative;
-			top:130px;
-			left:90px;
-			font-size: 1.1em;
+			top:50%;
+			left:10%;
+			font-size: 1.1vw;
 		}
 		header p span{
 			color:yellow;
@@ -41,14 +45,15 @@
 		}
 		nav ul{
 			overflow: hidden;
-			margin-left:150px;
+			margin-left:15%;
 			list-style: none;
 		}
 		nav ul li{
 			float:left;
-			margin-left:2px;
+			margin-left:1%;
 		}
 		nav ul li a{
+			font-size:.85vw;
 			text-decoration: none;
 			color:white;
 			display:block;
@@ -70,16 +75,16 @@
 			height:550px;
 		}
 		#myMessage_wrap{
-			margin:50px 80px;
+			margin:5%;
 			background: url(../img/bei.jpg) no-repeat;
-			width:400px;
-			height:480px;
+			width:40%;
+			height:85%;
 			background-size:100% 100%;
 		}
 		#myMessage{
 			margin-left:30px;
 			padding-top:50px;
-			font-size:1.3em;
+			font-size:1.3vw;
 			line-height: 3.5em;
 		}
 		
@@ -88,42 +93,47 @@
 		}
 		article h2{
 			position:absolute;
-			left:620px;
-			top:50px;
+			left:50%;
+			top:5%;
+			font-size:1.5vw;
 		}
 		article form textarea{
 			margin-top:15px;
-			
+			width:21vw;
 		}
 		article legend{
 			text-align: center;
+			font-size:1.5vw;
 		}
 		article fieldset{
 			position:absolute;
-			left:500px;
-			line-height: 2em;
-			top:100px;
-			width:500px;
+			left:50%;
+			line-height: 1em;
+			top:15%;
+			width:300px;
 		}
 		article form{
+			
 			padding:10px 30px;
-			line-height: 50px;
+			line-height: 25px;
 		}
+		
 		article input{
-			height:1.5em;
+			height:20px;
+			
 		}
 		article form span{
 			color:red;
 			margin:5px 6px;
 		}
 		article form p{
-			font-size:.8em;
+			font-size:.8vw;
 			text-align: right;
 			color:red;
 		}
 		article input.submit{
 			font-size:.9em;
-			margin-left:400px;
+			margin-left:80%;
 			padding:0 10px;
 			text-align: center;
 		}

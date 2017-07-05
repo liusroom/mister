@@ -3,9 +3,10 @@
 			padding:0;
 		}
 		body{
+			min-width: 500px;
 			margin:5px auto;
-			width:1100px;
-			background:url(../img/mainbg.gif);
+			width:65%;
+			background:url(../img/mainbg.gif) repeat-x;
 			background-size:100% 100%;
 		}
 		#wrap{
@@ -19,16 +20,19 @@
 			border: 1px solid black;
 		}
 		header h1{
+			width:20%;
+			font-size:2vw;
 			color:white;
 			position:relative;
 			top:75px;
-			left:105px;
+			left:9%;
 		}
 		header p{
+			width:30%;
 			position:relative;
-			top:130px;
-			left:90px;
-			font-size: 1.1em;
+			top:50%;
+			left:10%;
+			font-size: 1.1vw;
 		}
 		header p span{
 			color:yellow;
@@ -41,15 +45,15 @@
 		}
 		nav ul{
 			overflow: hidden;
-			margin-left:150px;
+			margin-left:15%;
 			list-style: none;
 		}
 		nav ul li{
-			
 			float:left;
-			margin-left:2px;
+			margin-left:1%;
 		}
 		nav ul li a{
+			font-size:.85vw;
 			text-decoration: none;
 			color:white;
 			display:block;
@@ -60,27 +64,28 @@
 			background: url(../img/hover.gif) center left;
 			background-size:100% 100%;
 		}
+
 		article{
 			background-color:white;
 			border:1px solid black;
 		}
 		article div.title{
-			margin-left:280px;
-			height:120px;
+			margin-left:25%;
+			height:80px;
 		}
 		article img.schoolBadge{
 			float:left;
-			height:150px;
+			height:6.5vw;
 		}
 		article h1{
 			float:left;
-			margin-top:60px;
+			margin-top:4%;
 			display: inline;
-			font-size: 2.5em;
+			font-size: 2.5vw;
 			color:green;
 		}
 		article div.control{
-			margin-top:10px;
+			margin-top:.6vw;
 			text-align:right;
 		}
 		.current{
@@ -88,9 +93,10 @@
 			color:white;
 		}
 		article input{
-			padding:5px;
+			padding:.5%;
 		}
 		#yema{
+			font-size:1vw;
 			display: inline;
 		}
 		#yema span{
@@ -98,33 +104,35 @@
 		}
 		article div.content{
 			overflow: hidden;
-			height:90px;
+			height:7vw;
 			position:relative;
 			background-color:darkgray;
 		}
 		article div.contentList{
 			position:absolute;
-			margin:10px;
-			width:3000px;
+			margin:1%;
+			width:5000px;
 			overflow: hidden;
 		}
 		article ul{
 			padding:5px;
-			
 			list-style: none;
-			
 		}
 		article li{
+			margin-right:3.5vw;
 			display:inline;
-			margin-right:90px;
+			margin-right:;
 		}
 		article ul a img{
-			width:90px;
-			height:60px;
+			width:9vw;
+			height:5vw;
 		}
 		article div.show {
 			text-align:center;
 			margin:20px 0;
+		}
+		article div.show img{
+			width:60%;
 		}
 		.here{
 			background:url(../img/hover.gif);

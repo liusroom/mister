@@ -8,7 +8,7 @@ $(function(){
 		$(function(){
 			$("section").css("display","none");
 			$("article a").click(function(){
-				$("article ul").animate({left:"700px"},500);
+				$("article ul").animate({left:"60%"},500);
 				$("article img").animate({"opacity":"0"},500);
 			})
 			var at=document.getElementsByTagName("article");

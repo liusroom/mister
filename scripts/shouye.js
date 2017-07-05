@@ -16,25 +16,15 @@ $(function(){
 			$ul.css("display","none");
 			$ul.show(1000);
 		})
-		$(function(){
 			$("article ul a").mouseover(function(){
 				$(this).css({"fontSize":"1.6em","color":"red"});
 			}).mouseout(function(){
-				$(this).css({"fontSize":"1.5em","color":"blue"})
+				$(this).css({"fontSize":"1.5vw","color":"blue"})
 			})
+		$("article ul li").mouseover(function(){
+			var id=$(this).index();
+			$("article div.container img").stop().eq(id).fadeIn()
+				.siblings().fadeOut();
 		})
-		$(function(){
-			$("article a:eq(0)").mouseover(function(){
-				$("article img").stop().animate({left:"-225px"})
-			});
-			$("article a:eq(1)").mouseover(function(){
-				$("article img").stop().animate({left:"-500px"})
-			});
-			$("article a:eq(2)").mouseover(function(){
-				$("article img").stop().animate({left:"-750px"})
-			});
-			$("article a:eq(3)").mouseover(function(){
-				$("article img").stop().animate({left:"-1000px"})
-			});
-		})
+		
  

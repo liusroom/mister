@@ -3,9 +3,10 @@
 			padding:0;
 		}
 		body{
+			min-width: 650px;
 			margin:5px auto;
-			width:1100px;
-			background:url(../img/mainbg.gif);
+			width:65%;
+			background:url(../img/mainbg.gif) repeat-x;
 			background-size:100% 100%;
 		}
 		#wrap{
@@ -16,19 +17,22 @@
 			height:250px;
 			margin-top:15px;
 			background-size: 100% 100%;
-			border: 2px solid black;
+			border: 1px solid black;
 		}
 		header h1{
+			width:20%;
+			font-size:2vw;
 			color:white;
 			position:relative;
 			top:75px;
-			left:105px;
+			left:9%;
 		}
 		header p{
+			width:30%;
 			position:relative;
-			top:130px;
-			left:90px;
-			font-size: 1.1em;
+			top:50%;
+			left:10%;
+			font-size: 1.1vw;
 		}
 		header p span{
 			color:yellow;
@@ -41,14 +45,15 @@
 		}
 		nav ul{
 			overflow: hidden;
-			margin-left:150px;
+			margin-left:15%;
 			list-style: none;
 		}
 		nav ul li{
 			float:left;
-			margin-left:2px;
+			margin-left:1%;
 		}
 		nav ul li a{
+			font-size:.85vw;
 			text-decoration: none;
 			color:white;
 			display:block;
@@ -66,30 +71,33 @@
 		article{
 			background-color:white;
 			position:relative;
-			border:1px solid black;
+			border:1px solid black;	
 		}
 		article div{
 			position:relative;
 			margin:5px auto;
 			width:70%;
-			height:900px;
+			height:810px;
 			background: url(../img/80251439408274325.jpg) no-repeat center;
 			background-size:100% 100%;
 		}
 		table {
-			top:150px;
-			left:80px;
+			height:80%;
+			width:80%;
+			top:17%;
+			left:10%;
 			position:absolute;
 			text-align:center;
 			border-collapse: collapse;
 			border:1px solid black;
 		}
 		table td{
-			padding:5px 10px;
+			font-size:.9vw;
+			padding:.2em .3em;
 			border:1px solid black;
 		}
 		.main{
-			font-size:1.5em;
+			font-size:1.1vw;
 			width:20px;
 			background-color:lightskyblue;
 		}
@@ -97,10 +105,10 @@
 			font-weight: bold;
 		}
 		#title{
-			font-size:2em;
+			font-size:2vw;
 			font-family: "微软雅黑";
 			background: url(../img/h3require.gif) no-repeat center bottom;
-			height:50px;
+			height:10%;
 		}
 		#myhead{
 			width:100px;

@@ -10,12 +10,13 @@ $(function(){
 	$("input.next").click(function(){
 		var len=$("article li").length;
 		var pageCount=Math.ceil(len/5);
+		var wd=$("body").width();
 		if(!$("article div.contentList").is(":animated")){
 		if(page==pageCount){
 			$("article div.contentList").animate({left:"0"},"slow");
 			page=1;
 		}else{
-			$("article div.contentList").animate({left:"-=1100px"},"slow");
+			$("article div.contentList").animate({left:"-="+wd},"slow");
 			page++;
 			}
 		$("article span").eq((page-1)).addClass("current").siblings().removeClass("current");
@@ -24,12 +25,13 @@ $(function(){
 	$("input.pre").click(function(){
 		var len=$("article li").length;
 		var pageCount=Math.ceil(len/5);
+		var wd=$("body").width();
 		if(!$("article div.contentList").is(":animated")){
 			if(page==1){
-				$("article div.contentList").animate({left:"-="+(pageCount-1)*1100},"slow");
+				$("article div.contentList").animate({left:"-="+(pageCount-1)*wd},"slow");
 				page=pageCount;
 			}else{
-				$("article div.contentList").animate({left:"+=1100px"},"slow");
+				$("article div.contentList").animate({left:"+="+wd},"slow");
 				page--;
 			}
 			$("article span").eq((page-1)).addClass("current").siblings().removeClass("current");
