@@ -22,13 +22,15 @@ $(function(){
 			});
 			if(i>0){
 				alert("请完成必填项目");
+				return false;
 			}
 			var em=$("article form input.email").val()
 			if(em.indexOf("@")==-1){
 				alert("请输入正确的邮箱地址");
 				return false;
 			}else{
-				$("article").empty().load("thanks.html")
+				$("article").empty().load("thanks.html");
+				return true;
 			}
 			
 		}
